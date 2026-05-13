@@ -36,7 +36,7 @@ from ultralytics import YOLO
 # ========== 正常加载模型 ==========
 if __name__ == '__main__':
     # 注意：路径中的反斜杠建议改成正斜杠
-    model = YOLO('ultralytics-main/ultralytics-main/ultralytics/cfg/models/11/yolo11-MSHC1.yaml')
+    model = YOLO('ultralytics-main/ultralytics-main/ultralytics/cfg/models/11/yolo11-MSHC.yaml')
     
     # 后续训练代码...
     #results = model.train(data='your_dataset.yaml', epochs=100)
