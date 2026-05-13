@@ -1,0 +1,7 @@
+train: C:\Users\念念念\Desktop\ultralytics\dataset\2nd-guanjiang.v1i.yolov11\train\images
+val: C:\Users\念念念\Desktop\ultralytics\dataset\2nd-guanjiang.v1i.yolov11\valid\images
+test: dataset/2nd-guanjiang.v1i.yolov11/test/images
+
+nc: 7
+names: ['Blocked', 'Ihole', 'IholeB', 'OAB', 'Ohole', 'OverF', 'Vhole']
+
