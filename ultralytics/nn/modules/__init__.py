@@ -75,6 +75,7 @@ from .conv import (
     LightConv,
     RepConv,
     SpatialAttention,
+    MSHC
 )
 from .head import (
     OBB,
@@ -187,4 +188,5 @@ __all__ = (
     "YOLOESegment",
     "YOLOESegment26",
     "v10Detect",
+    "MSHC"
 )
